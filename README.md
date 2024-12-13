@@ -30,8 +30,8 @@ Instalacia NS-3
 4. tar xfj ns-allinone-3.43.tar.bz2
 5. cd ns-allinone-3.43/
 6. ./build.py --enable-examples --enable-tests
-7. ns-3.42/
+7. cd ns-3.42/
 8. Preoverenie spravnosti instalacie je mozne spustit tieto skusobne subory:
-    a. ./ns3 run hello-simulator
-    b. ./ns3 run first.cc
-    c. ./ns3 run second.cc
+    a) ./ns3 run hello-simulator
+    b) ./ns3 run first.cc
+    c) ./ns3 run second.cc
