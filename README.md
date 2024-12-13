@@ -31,7 +31,7 @@ git clone https://github.com/Igor-Gombala/DP.git
 5. cd ns-allinone-3.43/
 6. ./build.py --enable-examples --enable-tests
 7. cd ns-3.42/
-8. Preoverenie spravnosti instalacie je mozne spustit tieto skusobne subory:
+8. Pre overenie spravnosti instalacie je mozne spustit tieto skusobne subory:
     a) ./ns3 run hello-simulator
     b) ./ns3 run first.cc
     c) ./ns3 run second.cc
