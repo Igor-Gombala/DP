@@ -17,6 +17,8 @@
 
 \documentclass{tukethesis}
 
+\usepackage{float}
+
 \setdefaultlanguage{slovak}
 \setotherlanguage{english}
 %% For thesis written in English just swap the main and other languages:
@@ -53,7 +55,7 @@
 % \include{chapters/00-preface}
 \include{chapters/01-introduction}
 %% Include other chapters here, e.g.:
-% \include{chapters/02-current-state}
+\include{chapters/02-current-state}
 % \include{chapters/03-existing-solutions}
 % ...
 \include{chapters/08-evaluation}
@@ -72,12 +74,12 @@
 %%           |_|   |_|
 %% -----------------------------------------------------------------
 
-\include{appendixes/00-list}
-\appendix
-\renewcommand\chaptername{\appendixname}
-\include{appendixes/user.manual}
-\include{appendixes/system.manual}
-\include{appendixes/structure}
+%\include{appendixes/00-list}
+%\appendix
+%\renewcommand\chaptername{\appendixname}
+%\include{appendixes/user.manual}
+%\include{appendixes/system.manual}
+%\include{appendixes/structure}
 
 
 %% -----------------------------------------------------------------

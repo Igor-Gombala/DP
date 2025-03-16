@@ -312,6 +312,9 @@
 \newcommand{\@studyprogramme}{Informatika}
 \newcommand{\studyprogramme}[1]{\renewcommand{\@studyprogramme}{#1}}
 
+% DOCVAR: city
+\newcommand{\city}[1]{\gdef\@city{#1}}
+
 % DOCVAR: thesis (type of the thesis)
 \newcommand{\@thesis@en}{Bachelor thesis}
 \newcommand{\@thesis@sk}{Bakalárska práca}
@@ -319,6 +322,8 @@
 \newcommand{\thesis}[2]{
     \renewcommand{\@thesis@en}{#1}
     \renewcommand{\@thesis@sk}{#2}
+    \gdef\@title@sk{#1}
+    \gdef\@title@en{#2}
 }
 
 % DOCVAR: declaration text

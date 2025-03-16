@@ -5,8 +5,8 @@
 Na písanie záverečných prác je možné použiť viacero štruktúr. Pre vytvorenie tejto práce sme použili dve z~nich:
 
 \begin{enumerate}
-    \item hlavná štruktúra práce bola vytvorená podľa štruktúry uvedenej v~článku \cite{Beel2010}
-    \item pre vytvorene abstraktu bola použitá štruktúra \cite{WikipediaImrad}, ktorá môže byť použitá na napísanie celej práce
+    \item hlavná štruktúra práce bola vytvorená podľa štruktúry uvedenej v~článku
+    \item pre vytvorene abstraktu bola použitá štruktúra, ktorá môže byť použitá na napísanie celej práce
 \end{enumerate}
 
 Krátky význam jednotlivých kapitol bude uvedený v~nasledujúcom texte. Ďalšie užitočné informácie nájsdete v~\emph{Pokynoch pre vypracovanie záverečných prác}\footnote{\url{https://theses.kpi.fei.tuke.sk/instructions}}.
@@ -140,15 +140,9 @@ Ak za príkaz pridáte hviezdičku kapitola nebude číslovaná a ani sa nezobra
 
 Na vkladanie obrázkov sa používa prostredie \texttt{figure}:
 
-\begin{figure}
-  \centering
-  \includegraphics[width=0.5\textwidth]{figures/tugboat}
-  \caption{\LaTeX{} Friendly Zone \label{o:latex_friendly_zone}}
-\end{figure}
-
 Na samotné vloženie obrázka sa používa príkaz \verb|\includegraphics{}|. \LaTeX{} podporuje bežné formáty ako PNG a JPEG. Pre vektorovú grafiku je vhodné použiť formát PDF.
 
-Každý obrázok by mal mať popis, ktorý je uvedený v~\emph{caption}. A čo je veľmi dôležité, na každý obrázok by mal byť odkaz v~texte. Na to použite príkazy \verb|\label{}| a \verb|\ref{}|. Prvý definuje názov, ktorým sa na obrázok odkazujete, druhý vytvorí odkaz na obrázok. Napríklad, obrázok \ref{o:latex_friendly_zone} zobrazuje prostredie priateľské pre používateľov \LaTeX-u.
+Každý obrázok by mal mať popis, ktorý je uvedený v~\emph{caption}. A čo je veľmi dôležité, na každý obrázok by mal byť odkaz v~texte. Na to použite príkazy \verb|\label{}| a \verb|\ref{}|. Prvý definuje názov, ktorým sa na obrázok odkazujete, druhý vytvorí odkaz na obrázok. Napríklad, obrázok zobrazuje prostredie priateľské pre používateľov \LaTeX-u.
 
 \LaTeX{} má vstavené pravidlá pre umiestnenie obrázkov. Štandardne ich umiestni na vrch stránky, na ktorej sú definované, aby text nebol prerušený. Môžete však použiť voliteľné parametre, aby ste ovplyvnili umiestnenie obrázka. Napríklad \texttt{[!ht]} znamená, že obrázok sa má, ak je to možné, umiestniť presne tam, kde je definovaný, inak na vrchu stránky:
 
@@ -203,7 +197,7 @@ Obsah výpisu môže byť tiež načítaný zo súboru pomocou príkazu:
 
 \subsection*{Citácie}
 
-Na citovanie literatúry sa používa balík \emph{biblatex}. Citácie sa vkladajú pomocou príkazu \verb|\cite{}|. Napríklad, \cite{Beel2010} je článok, ktorý popisuje štruktúru záverečnej práce.
+Na citovanie literatúry sa používa balík \emph{biblatex}. Citácie sa vkladajú pomocou príkazu \verb||. Napríklad, je článok, ktorý popisuje štruktúru záverečnej práce.
 
 Bibliografické záznamy sú definované v súbore \texttt{bibliography.bib}. Každý záznam má unikátny identifikátor, ktorý sa používa na citovanie. Napríklad, záznam \texttt{Beel2010} vyzerá nasledovne:
 
