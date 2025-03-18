@@ -9,10 +9,10 @@
 \contentsline {chapter}{\numberline {2}Analytická časť}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Klasifikácia objektov}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Detekcia objektov}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}YOLO}{3}{section.2.3}%
-\contentsline {subsubsection}{Princíp YOLO algoritmu}{4}{subsubsection*.5}%
-\contentsline {subsubsection}{Výhody YOLO algoritmu}{4}{subsubsection*.6}%
-\contentsline {subsubsection}{Nevýhody YOLO algoritmu}{4}{subsubsection*.7}%
-\contentsline {chapter}{\numberline {3}Vyhodnotenie}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Záver}{6}{chapter.4}%
-\contentsline {chapter}{Zoznam použitej literatúry}{7}{chapter*.9}%
+\contentsline {section}{\numberline {2.3}\acrshort {yolo}}{3}{section.2.3}%
+\contentsline {subsubsection}{Princíp \acrshort {yolo} algoritmu}{4}{subsubsection*.6}%
+\contentsline {section}{\numberline {2.4}\acrfull {mec}}{5}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Vyhodnotenie}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Záver}{8}{chapter.4}%
+\contentsline {chapter}{Zoznam použitej literatúry}{9}{chapter*.8}%
+\contentsline {chapter}{Zoznam skratiek}{10}{section*.9}%

@@ -31,7 +31,7 @@
         {Kili}%
       }
       \list{location}{1}{%
-        {YOLO Algorithm: Real-Time Object Detection from A to Z}%
+        {https://kili-technology.com/data-labeling/machine-learning/yolo-algorithm-real-time-object-detection-from-a-to-z}%
       }
       \strng{namehash}{c3eb2cb62695181fb7b360f36ba817df}
       \strng{fullhash}{c3eb2cb62695181fb7b360f36ba817df}
@@ -44,6 +44,35 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{YOLO Algorithm: Real-Time Object Detection from A to Z}
+      \field{type}{techreport}
+      \field{year}{2023}
+    \endentry
+    \entry{mec}{report}{}
+      \name{author}{1}{}{%
+        {{hash=3f21b1c16c37480ac5d510f4bd2b9f0d}{%
+           family={BasuMallick},
+           familyi={B\bibinitperiod},
+           given={Chiradeep},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Spiceworks}%
+      }
+      \list{location}{1}{%
+        {https://www.spiceworks.com/tech/edge-computing/articles/multi-access-edge-computing/}%
+      }
+      \strng{namehash}{3f21b1c16c37480ac5d510f4bd2b9f0d}
+      \strng{fullhash}{3f21b1c16c37480ac5d510f4bd2b9f0d}
+      \strng{bibnamehash}{3f21b1c16c37480ac5d510f4bd2b9f0d}
+      \strng{authorbibnamehash}{3f21b1c16c37480ac5d510f4bd2b9f0d}
+      \strng{authornamehash}{3f21b1c16c37480ac5d510f4bd2b9f0d}
+      \strng{authorfullhash}{3f21b1c16c37480ac5d510f4bd2b9f0d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{What Is Multi-Access Edge Computing (MEC)? Features, Examples, and Best Practices}
       \field{type}{techreport}
       \field{year}{2023}
     \endentry
