@@ -76,6 +76,61 @@
       \field{type}{techreport}
       \field{year}{2023}
     \endentry
+    \entry{ros}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e668f2510849ef910cfc107bab6e816a}{%
+           family={Yahboom},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Yahboom}%
+      }
+      \list{location}{1}{%
+        {\url{http://www.yahboom.net/study/ROSMASTER-R2}}%
+      }
+      \strng{namehash}{e668f2510849ef910cfc107bab6e816a}
+      \strng{fullhash}{e668f2510849ef910cfc107bab6e816a}
+      \strng{bibnamehash}{e668f2510849ef910cfc107bab6e816a}
+      \strng{authorbibnamehash}{e668f2510849ef910cfc107bab6e816a}
+      \strng{authornamehash}{e668f2510849ef910cfc107bab6e816a}
+      \strng{authorfullhash}{e668f2510849ef910cfc107bab6e816a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Welcome to ROSMASTER R2 repository - ROS introduction}
+      \field{type}{techreport}
+      \field{year}{2023}
+    \endentry
+    \entry{web}{report}{}
+      \name{author}{1}{}{%
+        {{hash=21575f4911f836d30a06495648abe41a}{%
+           family={Obregon},
+           familyi={O\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Medium}%
+      }
+      \list{location}{1}{%
+        {https://medium.com/@AlexanderObregon/building-real-time-applications-with-python-and-websockets-eb33a4098e02}%
+      }
+      \strng{namehash}{21575f4911f836d30a06495648abe41a}
+      \strng{fullhash}{21575f4911f836d30a06495648abe41a}
+      \strng{bibnamehash}{21575f4911f836d30a06495648abe41a}
+      \strng{authorbibnamehash}{21575f4911f836d30a06495648abe41a}
+      \strng{authornamehash}{21575f4911f836d30a06495648abe41a}
+      \strng{authorfullhash}{21575f4911f836d30a06495648abe41a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Building Real-time Applications with Python and WebSockets}
+      \field{type}{techreport}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

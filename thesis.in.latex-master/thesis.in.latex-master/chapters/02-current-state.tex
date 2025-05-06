@@ -30,7 +30,7 @@ Tieto algoritmy a modely sa používajp v rôznych aplikáciách, ako je samojaz
     \label{fig:enter-label}
 \end{figure}
 
-\section{\acrshort{yolo}}
+\section{You only look once (YOLO)}
 
 \acrshort{yolo} je algoritmus detekcie objektov v reálnom čase, vyvinutý v roku 2015 dvojicou autorov Joseph Redmon a Ali Farhadi.
 Ide o jednostupňový detektor objektov, ktorý využíva konvolučnú neurónovú sieť (\acrshort{cnn}) na prepovedanie ohraničujúcich políčok a prevdepodobností tried objektov vo vstupných obrázkoch.
@@ -69,7 +69,7 @@ Proces \acrshort{yolo} sa môže rozdeliť do niekoľkých krokov:
 
 \end{enumerate}
 
-\section{\acrfull{mec}}
+\section{Multi-access edge computing (MEC)}
 
 \acrlong{mec} alebo \acrshort{mec} architektúra, ktorá umožňuje poskytovateľom výpočtových, sieťových a mobilných služieb presunúť niektoré výpočtové a cloudové procesy na okraj sieťového prostredia, čím sa dosiahne lepší výkon, latencia a bezpečnosť.
 \acrfull{mec} je myšlienka alebo koncept vyvinutý Európskym inštitútom pre telekomunikačné normy (ETSI).
@@ -102,5 +102,52 @@ Medzi kľúčové vlastnosti \acrshort{mec} patria:
     \item Neprerušované prevádzkové schopnosti
     \item Vzájomná komunikácia s existujúcimi aplikáciami
     \item Väčšia miera virtualizácie \cite{mec}
+
+\end{itemize}
+
+\section{ROSMASTER R2}
+
+ROSMASTER R2 je mobilné auto s Ackerman riadiacou štruktúrou vyvynutou pre \acrshort{ros}2 systémy. R2 je vybavené s vysoko kvalitnými súčiastkami ako je laserový radar, hĺbková kamera, hlasová interakcia, gumová pneumatika 520, ktorá dokáže realizovať navigáciu mapovania robota, vyhýbanie sa prekážkam, automatickú jazdu, rozpoznávanie ľudských funkcií, ovládanie hlasovej interakcie a ďalšie funkcie. \cite{ros}
+
+\acrshort{ros} je operačný systém s otvoreným zdrojovým kódom vhodný pre roboty.
+Poskytuje služby, ktoré by mal mať operačný systém, vrátane abstrakcie hardvéru, nízkoúrovňového ovládania zariadení, implementácie bežných funkcií, odovzdávania správ medzi procesmi a správy balíkov.
+Poskytuje tiež nástroje a funkcie knižnice potrebné na získanie, kompliláciu, zápis a spustenie kódu v počítačoch.\cite{ros}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/R2.png}
+    \caption{ROSMASTER R2 \label{r2}}
+    \label{fig:enter-label}
+\end{figure}
+
+\subsubsection{Hlavné vlastnosti ROS}
+
+\begin{itemize}
+
+    \item Distribuivaná architektúra (každý pracovný proces je považovaný za uzol a je riadený jednotne pomocou správcu uzlov),
+    \item Podpora viacerých jazykov (napr. C++, Python, atď),
+    \item Dobrá škáliteľnosť (môžete napísať jeden uzol, alebo usporiadať veľa uzlov do väčšieho projektu cez roslaunch),
+    \item Otvorený zdrojový kód (\acrshort{ros} sa riadi protokolom \acrshort{bsd} a je úplne zadarmo pre individuálne a komerčné aplikácie a úpravy). \cite{ros}
+
+\end{itemize}
+
+\section{WebSockets}
+
+Aplikácie v reálnom čase sa za posledné desaťročie stali oveľa bežnejšími a umožňujú okamžitú komunikáciu a živé aktualizácie, ktoré udržujú používateľov v kontakte a informovanosti.
+Jednou z kľúčových technológií umožňujúcich tieto možnosti je protokol WebSockets. \cite{web}
+
+WebSockets je komunikačný protokol určený pre plne duplexné komunikačné kanály cez jedno TCP pripojenie.
+Po nastavení pripojenia WebSockets môžu klient aj server odosielať a prijímať údaje súčasne bez potreby opakovaného otvárania a zatvárania pripojení.
+Toto trvalé pripojenie znižuje latenciu oproti tradičným požiadavkám HTTP, vďaka čomu je protokol WebSockets ideálny pre aplikácie v reálnom čase. \cite{web}
+
+\subsubsection{Výhody WebSockets}
+Protokol WebSockets ponúka niekoľko silných výhod v porovaní s tradičným protokolom HTTP na požiadavku a odpoveď, najmä ak záleží na rýchlosti odozvy:
+
+\begin{itemize}
+
+    \item \textbf{Nízka latencia}: Keďže pripojenie ostáva otvorené, psrávy sa môžu posielať oboma smermi bez oneskorenia aj pri ďalších požiadavkách,
+    \item \textbf{Znížená réžia}: Protokol HTTP zabaluje každú správu do hlavičky a ďalších informácií, kde protokol WebSockets väčšinu z toho odstaňuje a znižuje údaje na odosielanie a spracovanie,
+    \item \textbf{Obojsmerná komunikácia}: Spojenie servera s klientom môže medzi sebou kedykoľvek komunikovať bez potreby požiadaviek,
+    \item \textbf{Škálovateľnosť}: Jeden WebSockets server dokáže sledovať mnoho aktívnych pripojení naraz, vďaka čomu je vhodný pre aplikácie s veľkým počtom používateľov. \cite{web}
 
 \end{itemize}

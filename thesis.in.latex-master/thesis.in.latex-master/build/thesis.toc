@@ -9,10 +9,14 @@
 \contentsline {chapter}{\numberline {2}Analytická časť}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Klasifikácia objektov}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Detekcia objektov}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}\acrshort {yolo}}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.3}You only look once (YOLO)}{3}{section.2.3}%
 \contentsline {subsubsection}{Princíp \acrshort {yolo} algoritmu}{4}{subsubsection*.6}%
-\contentsline {section}{\numberline {2.4}\acrfull {mec}}{5}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Vyhodnotenie}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Záver}{8}{chapter.4}%
-\contentsline {chapter}{Zoznam použitej literatúry}{9}{chapter*.8}%
-\contentsline {chapter}{Zoznam skratiek}{10}{section*.9}%
+\contentsline {section}{\numberline {2.4}Multi-access edge computing (MEC)}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}ROSMASTER R2}{6}{section.2.5}%
+\contentsline {subsubsection}{Hlavné vlastnosti ROS}{7}{subsubsection*.9}%
+\contentsline {section}{\numberline {2.6}WebSockets}{7}{section.2.6}%
+\contentsline {subsubsection}{Výhody WebSockets}{8}{subsubsection*.10}%
+\contentsline {chapter}{\numberline {3}Vyhodnotenie}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Záver}{10}{chapter.4}%
+\contentsline {chapter}{Zoznam použitej literatúry}{11}{chapter*.11}%
+\contentsline {chapter}{Zoznam skratiek}{12}{section*.12}%
